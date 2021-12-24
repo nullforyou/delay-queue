@@ -1,0 +1,24 @@
+{
+  "name": "nullforyou/delay-queue",
+  "require": {
+    "laravel/framework": "^5.8.0|^6.0|^7.0|^8.0",
+    "php-amqplib/php-amqplib": "^2.8"
+  },
+  "autoload": {
+    "psr-4": {
+      "NullForYou\\DelayQueue\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {}
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "NullForYou\\DelayQueue\\DelayQueueProvider"
+      ],
+      "aliases": {
+      }
+    }
+  }
+}
