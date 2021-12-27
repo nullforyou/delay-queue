@@ -10,3 +10,5 @@
 ```
 php artisan vendor:publish --provider="NullForYou\DelayQueue\DelayQueueProvider"
 ```
+
+然后在`config/delay_queue.php`填写需要的配置；
